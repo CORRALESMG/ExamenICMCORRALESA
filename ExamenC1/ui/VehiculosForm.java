@@ -45,6 +45,7 @@ public class VehiculosForm {
 		System.out.printf("year: %s\n", vehiculo.getYear());
 		System.out.printf("chasis: %s\n", vehiculo.getYear());
 
+
 		}
 
 		public void showBooks() {
@@ -54,64 +55,6 @@ public class VehiculosForm {
 	
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*public void showBook() {
-System.out.printf("Marca: %s\n", book.getTitle());
-System.out.printf("Modelo: %s\n", book.getAuthor());
-
-}
-
-public void showBooks() {
-for(int i=0; i<books.size(); i++) {
-	System.out.printf("%d | %s | %s\n", i+1, books.get(i).getTitle(), books.get(i).getAuthor());
-}
-}*/
 
 
 

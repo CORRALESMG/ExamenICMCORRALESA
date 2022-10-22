@@ -76,13 +76,13 @@ public class VehiculosDal {
 			ois.close();
 			return v;
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 		
@@ -101,10 +101,10 @@ public void saveList() {
 			os.flush();
 			os.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}
@@ -122,13 +122,13 @@ public List<Vehiculos> openList() {
 		ois.close();
 		return v;
 	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	} catch (ClassNotFoundException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
 	
@@ -152,10 +152,8 @@ public void save() {
 		os.flush();
 		os.close();
 	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
 }
